@@ -20,11 +20,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
             <ImageView
-                android:src="@mipmap/ic_launcher"
+                android:id="@+id/main_img"
+                android:src="@drawable/ic_launcher_foreground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/main_subirFoto"
                 android:text="Foto"
                 android:layout_margin="10dp"
                 android:textSize="20sp"
@@ -37,12 +39,14 @@
             <EditText
                 android:id="@+id/edtnombre"
                 android:hint="Nombre"
+                android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
             <EditText
                 android:id="@+id/edtpass"
                 android:hint="Contraseña"
+                android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
@@ -52,15 +56,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
                 <RadioButton
+                    android:id="@+id/radio1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
                 <RadioButton
+                    android:id="@+id/radio2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"/>
             </RadioGroup>
             <CheckBox
+                android:id="@+id/main_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"/>
